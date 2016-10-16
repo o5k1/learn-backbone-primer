@@ -1,0 +1,52 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-image: url("cheap_diagonal_fabric.png");
+    background-repeat: repeat;
+}
+
+section{
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+input[type="text"] {
+    padding: 0.3em;
+    width: 30%;
+}
+
+section#main p{
+    font-style: italic;
+}
+
+section#main span#central {
+    margin: 1.5em;
+}
+
+/*#todo-filters .selected {
+    pointer-events: none;
+    cursor: default;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+}*/
+
+.completedTodo {
+    text-decoration: line-through;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+section#footer {
+    margin-top: 3em;
+    font-size: 0.7em;
+}
